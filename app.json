@@ -40,6 +40,12 @@
           "defaultChannel": "default"
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "4bb33a26-779b-4311-887f-4c4fc9c41781"
+      }
+    },
+    "owner": "chenran214324"
   }
 }
