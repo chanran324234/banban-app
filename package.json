@@ -1,6 +1,6 @@
 {
   "name": "banban-app",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "license": "Apache-2.0",
   "scripts": {
@@ -8,6 +8,13 @@
     "web": "expo start --web --port 8081",
     "assets": "node scripts/generate-assets.mjs",
     "repo:configure": "node scripts/configure-repository.mjs",
+    "eas:whoami": "eas whoami",
+    "eas:login": "eas login",
+    "build:preview:android": "eas build --platform android --profile preview",
+    "build:production:android": "eas build --platform android --profile production",
+    "build:production:ios": "eas build --platform ios --profile production",
+    "submit:android": "eas submit --platform android --profile production",
+    "submit:ios": "eas submit --platform ios --profile production",
     "check": "npm run typecheck && npx expo install --check",
     "typecheck": "tsc --noEmit"
   },
@@ -26,6 +33,7 @@
   },
   "devDependencies": {
     "@types/react": "~19.1.10",
+    "eas-cli": "^20.1.0",
     "sharp": "^0.34.5",
     "typescript": "^5.9.2"
   }

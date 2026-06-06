@@ -55,7 +55,7 @@ AI, AIGC, 任务管理, 每日计划, 复盘, 项目管理, 工作流, 效率工
 
 开源仓库 URL：https://github.com/chanran324234/banban-app
 
-开发者联系邮箱：chenran@local
+开发者联系邮箱：提交前替换为真实公开支持邮箱
 
 ## 审核备注草案
 

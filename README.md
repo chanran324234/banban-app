@@ -108,7 +108,9 @@ npm run check
 - `docs/device-test-plan.md`
 - `docs/release-checklist.md`
 - `docs/github-publish.md`
+- `docs/store-submission-guide.md`
 - `docs/releases/v0.1.0.md`
+- `docs/releases/v0.1.1.md`
 
 重新生成图标和启动页：
 
@@ -128,6 +130,17 @@ npm run assets
 
 - `docs/device-test-plan.md`
 - `docs/release-checklist.md`
+- `docs/store-submission-guide.md`
+
+常用 EAS 命令：
+
+```bash
+npm run eas:login
+npm run eas:whoami
+npm run build:preview:android
+npm run build:production:android
+npm run build:production:ios
+```
 
 ## 开源协作
 

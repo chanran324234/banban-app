@@ -2,6 +2,22 @@
 
 All notable changes to Banban will be documented here.
 
+## 0.1.1 - 2026-06-06
+
+### Added
+
+- EAS CLI as a pinned development dependency.
+- EAS login, preview build, production build, and submit npm scripts.
+- Store submission guide for App Store / Google Play preparation.
+- v0.1.1 release notes.
+
+### Changed
+
+- App version updated to 0.1.1.
+- Store and privacy docs now mark the support email as a required pre-submission value instead of using a fake local placeholder.
+
+Release notes: `docs/releases/v0.1.1.md`
+
 ## 0.1.0 - 2026-06-06
 
 ### Added

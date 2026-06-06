@@ -28,4 +28,6 @@
 
 开源仓库：https://github.com/chanran324234/banban-app
 
-开发者联系邮箱：chenran@local
+问题反馈：https://github.com/chanran324234/banban-app/issues
+
+开发者联系邮箱：提交前替换为真实公开支持邮箱
