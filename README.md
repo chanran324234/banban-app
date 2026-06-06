@@ -108,6 +108,7 @@ npm run check
 - `docs/device-test-plan.md`
 - `docs/release-checklist.md`
 - `docs/github-publish.md`
+- `docs/releases/v0.1.0.md`
 
 重新生成图标和启动页：
 

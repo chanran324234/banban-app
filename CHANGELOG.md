@@ -19,3 +19,5 @@ All notable changes to Banban will be documented here.
 - App icon, adaptive icon, notification icon, splash screen, favicon, and screenshot drafts.
 - EAS build profiles.
 - Open-source contribution, security, roadmap, issue, and PR templates.
+
+Release notes: `docs/releases/v0.1.0.md`
