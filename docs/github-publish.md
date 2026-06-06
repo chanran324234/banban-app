@@ -27,6 +27,12 @@ Public
 - `docs/app-store-listing.md` 中的开源仓库 URL
 - `docs/privacy-policy.md` 中的开发者联系邮箱和仓库地址
 
+也可以使用脚本替换常见占位：
+
+```bash
+npm run repo:configure -- --owner <your-org-or-user> --repo banban-app --email <support-email>
+```
+
 ## 使用 GitHub CLI
 
 如果已经登录 `gh`：
@@ -44,6 +50,7 @@ gh repo create banban-app --public --source=. --remote=origin --push
 ```bash
 git remote add origin git@github.com:<your-org-or-user>/banban-app.git
 git push -u origin main
+git push origin v0.1.0
 ```
 
 ## 发布后检查
