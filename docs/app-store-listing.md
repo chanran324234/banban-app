@@ -49,13 +49,13 @@ AI, AIGC, 任务管理, 每日计划, 复盘, 项目管理, 工作流, 效率工
 
 ## 必填链接占位
 
-隐私政策 URL：待补充
+隐私政策 URL：https://github.com/chanran324234/banban-app/blob/main/docs/privacy-policy.md
 
-支持 URL：待补充
+支持 URL：https://github.com/chanran324234/banban-app/issues
 
-开源仓库 URL：待补充
+开源仓库 URL：https://github.com/chanran324234/banban-app
 
-开发者联系邮箱：待补充
+开发者联系邮箱：chenran@local
 
 ## 审核备注草案
 

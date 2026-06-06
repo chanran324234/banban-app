@@ -22,8 +22,8 @@ Public
 
 创建真实仓库后，替换这些占位：
 
-- `SECURITY.md` 中的 `https://github.com/your-org/banban-app/security/advisories/new`
-- `.github/ISSUE_TEMPLATE/config.yml` 中的 `https://github.com/your-org/banban-app/security/advisories/new`
+- `SECURITY.md` 中的 `https://github.com/chanran324234/banban-app/security/advisories/new`
+- `.github/ISSUE_TEMPLATE/config.yml` 中的 `https://github.com/chanran324234/banban-app/security/advisories/new`
 - `docs/app-store-listing.md` 中的开源仓库 URL
 - `docs/privacy-policy.md` 中的开发者联系邮箱和仓库地址
 
@@ -48,7 +48,7 @@ gh repo create banban-app --public --source=. --remote=origin --push
 3. 添加远程地址。
 
 ```bash
-git remote add origin git@github.com:<your-org-or-user>/banban-app.git
+git remote add origin git@github.com:chanran324234/banban-app.git
 git push -u origin main
 git push origin v0.1.0
 ```

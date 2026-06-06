@@ -10,7 +10,7 @@ Please do not open a public issue for security problems.
 
 Use GitHub Security Advisories after the repository is created:
 
-`https://github.com/your-org/banban-app/security/advisories/new`
+`https://github.com/chanran324234/banban-app/security/advisories/new`
 
 Until then, contact the maintainer privately and include:
 

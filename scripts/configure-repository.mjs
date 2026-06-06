@@ -22,13 +22,24 @@ if (!owner) {
 const repoPath = `${owner}/${repo}`;
 const httpsUrl = `https://github.com/${repoPath}`;
 const advisoryUrl = `${httpsUrl}/security/advisories/new`;
+const privacyUrl = `${httpsUrl}/blob/main/docs/privacy-policy.md`;
+const supportUrl = `${httpsUrl}/issues`;
 
 const replacements = new Map([
   ["https://github.com/your-org/banban-app/security/advisories/new", advisoryUrl],
+  ["https://github.com/chanran324234/banban-app/security/advisories/new", advisoryUrl],
   ["https://github.com/<your-org-or-user>/banban-app", httpsUrl],
   ["git@github.com:<your-org-or-user>/banban-app.git", `git@github.com:${repoPath}.git`],
-  ["待补充", httpsUrl],
-  ["开发者联系邮箱：待补充", `开发者联系邮箱：${email}`]
+  ["git@github.com:chanran324234/banban-app.git", `git@github.com:${repoPath}.git`],
+  ["隐私政策 URL：待补充", `隐私政策 URL：${privacyUrl}`],
+  ["隐私政策 URL：https://github.com/chanran324234/banban-app", `隐私政策 URL：${privacyUrl}`],
+  ["支持 URL：待补充", `支持 URL：${supportUrl}`],
+  ["支持 URL：https://github.com/chanran324234/banban-app", `支持 URL：${supportUrl}`],
+  ["开源仓库 URL：待补充", `开源仓库 URL：${httpsUrl}`],
+  ["开源仓库 URL：https://github.com/chanran324234/banban-app", `开源仓库 URL：${httpsUrl}`],
+  ["开发者联系邮箱：待补充", `开发者联系邮箱：${email}`],
+  ["开发者联系邮箱：https://github.com/chanran324234/banban-app", `开发者联系邮箱：${email}`],
+  ["正式上架前需要补充开发者联系邮箱和开源仓库地址。", `开源仓库：${httpsUrl}\n\n开发者联系邮箱：${email}`]
 ]);
 
 const files = [

@@ -26,4 +26,6 @@
 
 ## 联系方式
 
-正式上架前需要补充开发者联系邮箱和开源仓库地址。
+开源仓库：https://github.com/chanran324234/banban-app
+
+开发者联系邮箱：chenran@local
