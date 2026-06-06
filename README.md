@@ -29,6 +29,12 @@ npm run web
 
 打开 Expo 输出的本地地址即可预览 Web 版。移动端可以用 Expo Go 扫码调试。
 
+导出静态 Web 预览：
+
+```bash
+npm run web:export
+```
+
 提交前检查：
 
 ```bash
@@ -152,6 +158,7 @@ npm run build:production:ios
 - `.github/ISSUE_TEMPLATE/`：Issue 模板
 - `.github/PULL_REQUEST_TEMPLATE.md`：PR 模板
 - `.github/workflows/check.yml`：PR / main 分支基础检查
+- `.github/workflows/deploy-pages.yml`：GitHub Pages Web 预览部署
 
 ## 开源协议
 

@@ -13,6 +13,7 @@
 - 模型：用户自带 DeepSeek API Key，应用不内置共享密钥。
 - 数据：任务、记忆、聊天记录默认本地保存。
 - 已配置：Expo app config、EAS profiles、图标、启动页、基础截图、隐私政策、用户协议、AI 内容说明、设备测试计划。
+- 没有 Android 真机时，可以先使用 Web 预览和 GitHub Pages 验证基础流程。
 
 ## 提交前必须补齐
 
@@ -32,6 +33,22 @@ npm run eas:login
 npm run eas:whoami
 npm run check
 ```
+
+## Web 预览
+
+本地预览：
+
+```bash
+npm run web
+```
+
+静态导出：
+
+```bash
+npm run web:export
+```
+
+`main` 分支推送后，GitHub Actions 会自动把 `dist/` 部署到 GitHub Pages。Web 版用于早期体验和分享，不替代 iOS / Android 真机审核测试。
 
 如果首次把项目连接到 Expo，请运行：
 
