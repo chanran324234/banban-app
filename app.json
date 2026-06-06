@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "伴办",
+    "slug": "banban-app",
+    "version": "0.1.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#f7f5ef"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "app.banban.opensource"
+    },
+    "android": {
+      "package": "app.banban.opensource",
+      "permissions": [
+        "POST_NOTIFICATIONS"
+      ],
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#2f6f5e"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-secure-store",
+      [
+        "expo-notifications",
+        {
+          "icon": "./assets/notification-icon.png",
+          "color": "#2f6f5e",
+          "defaultChannel": "default"
+        }
+      ]
+    ]
+  }
+}
