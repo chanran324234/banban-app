@@ -10,6 +10,7 @@ import {
 } from "react-native";
 import { Button } from "../components/Button";
 import { Section } from "../components/Section";
+import { appInfo } from "../config/appInfo";
 import { legalDocuments } from "../content/legal";
 import { exportUserData } from "../services/dataExport";
 import { cancelReminder, scheduleDailyReminder } from "../services/reminders";
@@ -81,13 +82,13 @@ export function SettingsScreen({
   };
 
   const openSource = () => {
-    Linking.openURL("https://github.com/");
+    Linking.openURL(appInfo.repositoryUrl);
   };
 
   const exportData = async () => {
     await exportUserData({
       app: "banban",
-      version: "0.1.0",
+      version: appInfo.version,
       exportedAt: new Date().toISOString(),
       tasks,
       memories,
@@ -256,7 +257,7 @@ export function SettingsScreen({
       <Section title="开源">
         <View style={styles.panel}>
           <Text style={styles.text}>
-            伴办使用 Apache-2.0 协议。正式创建 GitHub 仓库后，把这里替换为真实地址。
+            伴办使用 Apache-2.0 协议，代码和路线图都公开在 GitHub。
           </Text>
           <View style={styles.actions}>
             <Button

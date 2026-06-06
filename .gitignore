@@ -1,5 +1,6 @@
 node_modules
 .expo
+.playwright-cli
 dist
 web-build
 .env
